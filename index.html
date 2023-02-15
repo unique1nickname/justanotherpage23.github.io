@@ -4,6 +4,7 @@
         <title>Валаам: работа Василия Пупкина.</title>
         <link href="valaam_css.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="valaam_js.js"></script>
+        <script src="https://vk.com/js/api/openapi.js?169" type="text/javascript"></script>
     </head>
     <body>
         
@@ -67,5 +68,16 @@
 <br>
 <img id="gif" src="octocat-spinner-128.gif">
 <div><a href="html2.html">След. страница</a></div>
+
+<script type="text/javascript">
+    VK.init({
+      apiId: vk_comments_xd,
+      onlyWidgets: true
+    });
+</script>
+<div id="vk_comments_xd"></div>
+<script type="text/javascript">
+  VK.Widgets.Comments('vk_comments_xd');
+</script>
     </body>
 </html>
