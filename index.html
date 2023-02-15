@@ -69,15 +69,15 @@
 <img id="gif" src="octocat-spinner-128.gif">
 <div><a href="html2.html">След. страница</a></div>
 
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
 <script type="text/javascript">
-    VK.init({
-      apiId: vk_comments_xd,
-      onlyWidgets: true
-    });
+  VK.init({ apiId: 51553768, onlyWidgets: true });
 </script>
-<div id="vk_comments_xd"></div>
+
+<!-- Put this div tag to the place, where the Comments block will be -->
+<div id="vk_comments"></div>
 <script type="text/javascript">
-  VK.Widgets.Comments('vk_comments_xd');
+  VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
 </script>
     </body>
 </html>
